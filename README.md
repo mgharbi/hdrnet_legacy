@@ -132,4 +132,4 @@ The rendering shader that implements the slice and apply operation is in `androi
 * The provided pre-trained models were updated from an older version and might slightly differ from the models
   used for evaluation in the paper.
 * The HDR+ pretrained model has a different input format (16-bits linear, custom YUV). It will produce
-uncanny colors if run on standard RGB images. We will release and updated version.
+uncanny colors if run on standard RGB images.
