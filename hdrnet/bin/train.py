@@ -102,7 +102,7 @@ def main(args, model_params, data_params):
         eval_prediction = mdl.inference(
             eval_samples['lowres_input'], eval_samples['image_input'],
             model_params, is_training=False)
-      eval_psnr = metrics.psnr(eval_samples['image_output'], prediction)
+      eval_psnr = metrics.psnr(eval_samples['image_output'], eval_prediction)
 
   # Optimizer
   global_step = tf.contrib.framework.get_or_create_global_step()
